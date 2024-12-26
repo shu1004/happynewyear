@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Cafe24ClassicType-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Cafe24ClassicType-Regular';
+}
+
+body {
+    background-image: url('./BG1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#postcard {
+    width: 400px;
+    position: absolute;
+}
+
+.postcard-background {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#msg-containor {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    padding-left: 89px;
+    font-size: 21px;
+}
+
+.p-message {
+    width: 80%;
+    
+}
+
+.p-name {
+    /*font-size: 20px;*/
+    text-align: end;
+    padding-right: 160px;
+}
+
+#btn-containor {
+    width: 450px;
+    margin-top: 450px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 209, 135);
+    font-size: 17px;
+    width: 50%;
+    margin: 6px;;
+    padding: 13px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 209, 135);
+    border-radius: 50px;
+}
